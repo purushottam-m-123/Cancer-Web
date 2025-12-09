@@ -3,8 +3,6 @@ import { Menu, X } from "lucide-react";
 import logo from "../assets/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 
-
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
